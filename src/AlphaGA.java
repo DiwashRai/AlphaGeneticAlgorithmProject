@@ -9,16 +9,16 @@ public class AlphaGA {
     // Initialise the data set that the algorithm will try to find a solution for.
     // Set how many of the list of objects to include. Starting from first to last.
 //    static File dataTxt = new File("dataSets/2000 sets/2000(20).txt");
-    static File dataTxt = new File("500.txt");
-    final static int TOTAL_OBJECTS = 500;
+    static File dataTxt = new File("");
+    static int TOTAL_OBJECTS = 0;
 
     // Initialise the settings for the GA algorithm
-    final static int BIN_CAPACITY = 150;
+    static int BIN_CAPACITY = 150;
     final static int POPULATION_SIZE = 100;
     final static int OFFSPRING_PER_GENERATION = 75; // Controls how many offspring are made.
     final static int MUTATION_PERCENTAGE_CHANCE = 66;
     final static int GENES_PER_MUTATED_GENE = 1000;  // controls how many genes/bins are mutated in each chromosome. A value of 10 mutates 1 gene every 10 genes.
-    final static int PARENT_SELECTION_TYPE = 0; // 0 = tournament.1 = ranking. 2 = Original Alpha male. 3 = New Alpha male
+    static int PARENT_SELECTION_TYPE = 0; // 0 = tournament.1 = ranking. 2 = Original Alpha male. 3 = New Alpha male
 
     // Initialise fitness function K constant
     final static int FITNESS_K_CONSTANT = 2;
@@ -48,9 +48,26 @@ public class AlphaGA {
     public static void main (String [] args)
     {
         System.out.println("RESULTS");
-        for(int run = 1; run < 2; ++run){
+        for(int run = 1; run < 2; ++run){ // loop for when the experiments were set to automate through the dataSets one at a time automatically
             //dataTxt = new File("dataSets/"+ TOTAL_OBJECTS +" sets/"+ TOTAL_OBJECTS + "(" + run +").txt");
             // Error check to see if there is any txt file for the program to even read.
+
+            ///////////////////////////// Code to create demo .jar where user can input their own settings////////////////////////////////////////
+            Scanner reader = new Scanner(System.in);  // Reading from System.in
+            System.out.println("Enter name of data txt file e.g. 'data.txt'");
+            dataTxt = new File(reader.next());
+            System.out.println("Enter number of items in data file: ");
+            TOTAL_OBJECTS = reader.nextInt();
+            System.out.println("Set bin capacity: ");
+            BIN_CAPACITY = reader.nextInt();
+            System.out.println("Set parent selection type.");
+            System.out.println("0 = tournament. 1 = rank based roulette. 2 = alpha male.");
+            PARENT_SELECTION_TYPE = reader.nextInt();
+            reader.close();
+
+
+
+
             if (!dataTxt.canRead()){
                 System.out.println("ERROR!! Cannot read data file. Program terminated.");
                 return;

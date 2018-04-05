@@ -127,8 +127,8 @@ public class Population {
 
         // take K number of chromosomes to be the alpha males from the list of females
         Random generator = new Random();
-        int totalAlphaMales = generator.nextInt(6) + 20;
-//        int totalAlphaMales = AlphaGA.K_ALPHA_MALES;
+        //int totalAlphaMales = generator.nextInt(6) + 20;
+        int totalAlphaMales = AlphaGA.K_ALPHA_MALES;
 
         // Sort from fittest first if alpha males are to be chosen by fittest first
         if (AlphaGA.PICK_FITTEST_MALES){

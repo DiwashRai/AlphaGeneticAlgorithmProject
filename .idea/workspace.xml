@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6956571b-f064-4386-b7ac-9a3c9c7def11" name="Default" comment="" />
+    <list default="true" id="6956571b-f064-4386-b7ac-9a3c9c7def11" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/AlphaGA.java" afterPath="$PROJECT_DIR$/src/AlphaGA.java" />
+      <change beforePath="$PROJECT_DIR$/src/Population.java" afterPath="$PROJECT_DIR$/src/Population.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +25,12 @@
       <file leaf-file-name="AlphaGA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlphaGA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="572">
+              <caret line="141" column="5" lean-forward="true" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7059#7060#0" expanded="true" />
+                <element signature="e#7098#7099#0" expanded="true" />
                 <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
               </folding>
             </state>
@@ -33,15 +40,15 @@
       <file leaf-file-name="Population.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Population.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+            <state relative-caret-position="441">
+              <caret line="129" column="10" lean-forward="false" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#763#764#0" expanded="true" />
                 <element signature="e#847#848#0" expanded="true" />
                 <element signature="method#mutation#0;class#Population#0" expanded="false" />
                 <element signature="method#selectSurvivors#0;class#Population#0" expanded="false" />
-                <element signature="method#originalAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
+                <element signature="method#selectionAndCrossover#0;class#Population#0" expanded="false" />
                 <element signature="method#myAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
                 <element signature="method#rankingSelectParents#0;class#Population#0" expanded="false" />
                 <element signature="method#tournamentSelectParents#0;class#Population#0" expanded="false" />
@@ -63,17 +70,14 @@
       <file leaf-file-name="Chromosome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="544">
+              <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initRandomFirstFit#0;class#Chromosome#0" expanded="false" />
                 <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
                 <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
                 <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-                <element signature="e#4509#4515#0" expanded="true" />
-                <element signature="e#5421#5427#0" expanded="true" />
-                <element signature="e#5474#5480#0" expanded="true" />
                 <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
                 <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
                 <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -97,8 +101,8 @@
       <file leaf-file-name="Bin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="14" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/Item.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -139,6 +143,9 @@
       <replace>chromosome</replace>
       <replace>chromosomePopulation</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -184,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,14 +206,34 @@
             <path>
               <item name="AlphaGeneticAlgorithmProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlphaGeneticAlgorithmProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphaGeneticAlgorithmProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphaGeneticAlgorithmProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphaGeneticAlgorithmProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphaGeneticAlgorithmProject" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="AlphaGeneticAlgorithmProject_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphaGeneticAlgorithmProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphaGeneticAlgorithmProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,14 +393,16 @@
       <workItem from="1522433489542" duration="405000" />
       <workItem from="1522433910418" duration="525000" />
       <workItem from="1522434449540" duration="95793000" />
+      <workItem from="1522948067209" duration="4254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344254000" />
+    <option name="totallyTimeSpent" value="348508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -385,7 +412,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23223753" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -480,6 +507,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -495,7 +524,7 @@
             <element signature="e#847#848#0" expanded="true" />
             <element signature="method#mutation#0;class#Population#0" expanded="false" />
             <element signature="method#selectSurvivors#0;class#Population#0" expanded="false" />
-            <element signature="method#originalAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
+            <element signature="method#selectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#myAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#rankingSelectParents#0;class#Population#0" expanded="false" />
             <element signature="method#tournamentSelectParents#0;class#Population#0" expanded="false" />
@@ -523,9 +552,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -576,6 +602,8 @@
           <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -591,9 +619,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -648,7 +673,7 @@
             <element signature="e#847#848#0" expanded="true" />
             <element signature="method#mutation#0;class#Population#0" expanded="false" />
             <element signature="method#selectSurvivors#0;class#Population#0" expanded="false" />
-            <element signature="method#originalAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
+            <element signature="method#selectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#myAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#rankingSelectParents#0;class#Population#0" expanded="false" />
             <element signature="method#tournamentSelectParents#0;class#Population#0" expanded="false" />
@@ -672,6 +697,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -687,7 +714,7 @@
             <element signature="e#847#848#0" expanded="true" />
             <element signature="method#mutation#0;class#Population#0" expanded="false" />
             <element signature="method#selectSurvivors#0;class#Population#0" expanded="false" />
-            <element signature="method#originalAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
+            <element signature="method#selectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#myAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#rankingSelectParents#0;class#Population#0" expanded="false" />
             <element signature="method#tournamentSelectParents#0;class#Population#0" expanded="false" />
@@ -715,9 +742,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -768,6 +792,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -783,9 +809,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -828,6 +851,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -843,9 +868,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -896,6 +918,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
@@ -911,9 +935,6 @@
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -1004,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1015,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/src/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1024,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,23 +1052,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="544">
+          <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initRandomFirstFit#0;class#Chromosome#0" expanded="false" />
             <element signature="method#setFitness#0;class#Chromosome#0" expanded="false" />
             <element signature="method#firstFitListItems#0;class#Chromosome#0" expanded="false" />
             <element signature="method#makeValid#0;class#Chromosome#0" expanded="false" />
-            <element signature="e#4509#4515#0" expanded="true" />
-            <element signature="e#5421#5427#0" expanded="true" />
-            <element signature="e#5474#5480#0" expanded="true" />
             <element signature="method#replaceWithItem#0;class#Chromosome#0" expanded="false" />
             <element signature="method#valueOfFirstNItemsInBin#0;class#Chromosome#0" expanded="false" />
             <element signature="method#itemAbsent#0;class#Chromosome#0" expanded="false" />
@@ -1068,17 +1084,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataSets/500 sets/500(1).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+        <state relative-caret-position="441">
+          <caret line="129" column="10" lean-forward="false" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#763#764#0" expanded="true" />
             <element signature="e#847#848#0" expanded="true" />
             <element signature="method#mutation#0;class#Population#0" expanded="false" />
             <element signature="method#selectSurvivors#0;class#Population#0" expanded="false" />
-            <element signature="method#originalAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
+            <element signature="method#selectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#myAlphaMaleSelectionAndCrossover#0;class#Population#0" expanded="false" />
             <element signature="method#rankingSelectParents#0;class#Population#0" expanded="false" />
             <element signature="method#tournamentSelectParents#0;class#Population#0" expanded="false" />
@@ -1096,20 +1119,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataSets/500 sets/500(1).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AlphaGA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="572">
+          <caret line="141" column="5" lean-forward="true" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7098#7099#0" expanded="true" />
             <element signature="method#printItemList#0;class#AlphaGA#0" expanded="false" />
           </folding>
         </state>
